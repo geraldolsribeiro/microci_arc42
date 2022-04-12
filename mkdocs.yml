@@ -1,7 +1,7 @@
 site_name: arc42 template documentation
-repo_url: https://geraldolsribeiro.github.io/microci_arc42/
+repo_url: https://github.com/geraldolsribeiro/microci_arc42
 repo_name: geraldolsribeiro/microci_arc42
-edit_uri: edit/master/docs/
+edit_uri: edit/main/docs/
 remote_branch: gh-pages
 remote_name: origin
 site_description: arc42 template documentation

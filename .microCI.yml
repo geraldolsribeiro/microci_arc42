@@ -5,7 +5,7 @@ steps:
     plugin:
       name: "mkdocs_material"
       action: "build"
-  - name: "Publicar HTML para repositório git"
+  - name: "Publicar HTML para github pages"
     ssh:
       copy_from: "${HOME}/.ssh"
     plugin:
