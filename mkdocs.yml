@@ -1,12 +1,12 @@
 site_name: Nome do site
-repo_url: https://github.com/geraldolsribeiro/microCI
-repo_name: geraldolsribeiro/microCI
+repo_url: https://github.com/geraldolsribeiro/microci_arc42
+repo_name: geraldolsribeiro/microci_arc42
 edit_uri: edit/master/docs/
 theme:
   name: material
-  language: pt
+  language: en
   logo: images/arc42-logo.png
-  favicon: assets/favicon.png
+  favicon: images/arc42-logo.png
   palette:
     primary: white
   icon:
@@ -36,18 +36,18 @@ markdown_extensions:
   - pymdownx.snippets
 plugins:
   - search:
-      lang: pt
+      lang: en
   - mermaid2
   - i18n:
-      default_language: pt
+      default_language: en
       languages:
         en:
           name: English
           build: true
-          site_name: microCI documentation
+          site_name: microCI documentation template
         pt:
           name: Português
           build: true
-          site_name: Documentação do microCI
+          site_name: Modelo de documentação do microCI
 
 # vim: spell spelllang=pt,en
