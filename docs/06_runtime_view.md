@@ -1,23 +1,33 @@
-# 6. Runtime View
+# Runtime View
 
 [TBD]
 
 !!! tldr "Tips for completing this section"
+      ![img](images/06-runtime-overview.png)
+
       **Contents**
 
-      The runtime view describes concrete behavior and interactions of the system’s building blocks in form of scenarios from the following areas:
+      The runtime view describes concrete behavior and interactions of the
+      system’s building blocks in form of scenarios from the following areas:
 
       * important use cases or features: how do building blocks execute them?
-      * interactions at critical external interfaces: how do building blocks cooperate with users and neighboring systems?
+      * interactions at critical external interfaces: how do building blocks
+        cooperate with users and neighboring systems?
       * operation and administration: launch, start-up, stop
       * error and exception scenarios
 
-      Remark: The main criterion for the choice of possible scenarios (sequences, workflows) is their *architectural relevance*. It is *not* important to describe a large number of scenarios. You should rather document a representative selection.
+      Remark: The main criterion for the choice of possible scenarios
+      (sequences, workflows) is their *architectural relevance*. It is *not*
+      important to describe a large number of scenarios. You should rather
+      document a representative selection.
 
       **Motivation**
 
-      You should understand how (instances of) building blocks of your system perform their job and communicate at runtime.
-      You will mainly capture scenarios in your documentation to communicate your architecture to stakeholders that are less willing or able to read and understand the static models (building block view, deployment view).
+      You should understand how (instances of) building blocks of your system
+      perform their job and communicate at runtime. You will mainly capture
+      scenarios in your documentation to communicate your architecture to
+      stakeholders that are less willing or able to read and understand the
+      static models (building block view, deployment view).
 
       **Form**
 
@@ -32,13 +42,14 @@
 
       **Further Information**
 
-      See [Runtime View](https://docs.arc42.org/section-6/) in the arc42 documentation.
+      See [Runtime View](https://docs.arc42.org/section-6/) in the arc42
+      documentation.
 
 ## [TBD Runtime Scenario 1]
 
-* insert runtime diagram or textual description of the scenario>_
+* insert runtime diagram or textual description of the scenario
 * insert description of the notable aspects of the interactions between the
-building block instances depicted in this diagram.>_
+  building block instances depicted in this diagram.
 
 ## [TBD Runtime Scenario 2]
 

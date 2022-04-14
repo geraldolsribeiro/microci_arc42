@@ -5,6 +5,7 @@ steps:
     plugin:
       name: "mkdocs_material"
       action: "build"
+
   - name: "Publicar HTML para github pages"
     ssh:
       copy_from: "${HOME}/.ssh"
@@ -12,8 +13,7 @@ steps:
       name: "git_publish"
       git_url: "git@github.com:geraldolsribeiro/microci_arc42.git"
       branch: "gh-pages"
-      copy_from: "site"
-      clean_before: true
+
   - name: "Servidor local na porta 8000 (Ctrl+C para finalizar)"
     description: "Executa servidor local para preview da documentação"
     only: "serve" # passo executado localmente para auxiliar na edição/preview

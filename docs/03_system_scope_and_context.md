@@ -1,18 +1,25 @@
-# 3. System Scope and Context
+# System Scope and Context
 
 [TBD]
 
 !!! tldr "Tips for completing this section"
+      ![img](images/03-context-overview.png)
+
       **Contents**
 
-      System scope and context - as the name suggests - delimits your system (i.e. your scope) from all its communication partners
-      (neighboring systems and users, i.e. the context of your system). It thereby specifies the external interfaces.
+      System scope and context - as the name suggests - delimits your system
+      (i.e. your scope) from all its communication partners (neighboring
+      systems and users, i.e. the context of your system). It thereby specifies
+      the external interfaces.
 
-      If necessary, differentiate the business context (domain specific inputs and outputs) from the technical context (channels, protocols, hardware).
+      If necessary, differentiate the business context (domain specific inputs
+      and outputs) from the technical context (channels, protocols, hardware).
 
       **Motivation**
 
-      The domain interfaces and technical interfaces to communication partners are among your system's most critical aspects. Make sure that you completely understand them.
+      The domain interfaces and technical interfaces to communication partners
+      are among your system's most critical aspects. Make sure that you
+      completely understand them.
 
       **Form**
 
@@ -23,7 +30,8 @@
 
       **Further Information**
 
-      See [Context and Scope](https://docs.arc42.org/section-3/) in the arc42 documentation.
+      See [Context and Scope](https://docs.arc42.org/section-3/) in the arc42
+      documentation.
 
 ## Business Context
 
@@ -32,19 +40,24 @@
 !!! tldr "Tips for completing this section"
       **Contents**
 
-      Specification of *all* communication partners (users, IT-systems, ...) with explanations of domain specific inputs and outputs or interfaces.
-      Optionally you can add domain specific formats or communication protocols.
+      Specification of *all* communication partners (users, IT-systems, ...)
+      with explanations of domain specific inputs and outputs or interfaces.
+      Optionally you can add domain specific formats or communication
+      protocols.
 
       **Motivation**
 
-      All stakeholders should understand which data are exchanged with the environment of the system.
+      All stakeholders should understand which data are exchanged with the
+      environment of the system.
 
       **Form**
 
-      All kinds of diagrams that show the system as a black box and specify the domain interfaces to communication partners.
+      All kinds of diagrams that show the system as a black box and specify the
+      domain interfaces to communication partners.
 
-      Alternatively (or additionally) you can use a table.
-      The title of the table is the name of your system, the three columns contain the name of the communication partner, the inputs, and the outputs.
+      Alternatively (or additionally) you can use a table. The title of the
+      table is the name of your system, the three columns contain the name of
+      the communication partner, the inputs, and the outputs.
 
 [TBD Diagram or Table]
 
@@ -57,16 +70,22 @@
 !!! tldr "Tips for completing this section"
       **Contents**
 
-      Technical interfaces (channels and transmission media) linking your system to its environment. In addition a mapping of domain specific input/output to the channels, i.e. an explanation with I/O uses which channel.
+      Technical interfaces (channels and transmission media) linking your
+      system to its environment. In addition a mapping of domain specific
+      input/output to the channels, i.e. an explanation with I/O uses which
+      channel.
 
       **Motivation**
 
-      Many stakeholders make architectural decision based on the technical interfaces between the system and its context. Especially infrastructure or hardware designers decide these technical interfaces.
+      Many stakeholders make architectural decision based on the technical
+      interfaces between the system and its context. Especially infrastructure
+      or hardware designers decide these technical interfaces.
 
       **Form**
 
       E.g. UML deployment diagram describing channels to neighboring systems,
-      together with a mapping table showing the relationships between channels and input/output.
+      together with a mapping table showing the relationships between channels
+      and input/output.
 
 [TBD Diagram or Table]
 

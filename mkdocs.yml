@@ -24,6 +24,7 @@ extra_css:
   - css/print.css
 markdown_extensions:
   - admonition
+  - def_list
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -43,63 +44,16 @@ plugins:
   - search:
       lang: en
   - mermaid2
-  - i18n:
-      default_language: en
-      languages:
-        en:
-          name: English
-          build: true
-          site_name: microCI documentation template
-        pt:
-          name: Português
-          build: true
-          site_name: Modelo de documentação do microCI
-
-  - with-pdf:
-      # author: "<author name>"
-      # copyright: "<copyright>"
-      cover: true
-      back_cover: true
-      # cover_title: TITLE TEXT
-      cover_subtitle: SUBTITLE TEXT
-      #custom_template_path: TEMPLATES PATH
-      toc_title: Table of Contents
-      heading_shift: false
-      #toc_level: 3
-      ordered_chapter_level: 2
-      #excludes_children:
-      #    - 'release-notes/:upgrading'
-      #    - 'release-notes/:changelog'
-      #
-      #exclude_pages:
-      #    - 'bugs/'
-      #    - 'appendix/contribute/'
-      #convert_iframe:
-      #    - src: IFRAME SRC
-      #      img: POSTER IMAGE URL
-      #      text: ALTERNATE TEXT
-      #    - src: ...
-      #two_columns_level: 3
-      #render_js: true
-      #headless_chrome_path: headless-chromium
-      #enabled_if_env: ENABLE_PDF_EXPORT
-      #debug_html: true
-      #show_anchors: true
-      #verbose: true
-      #cover_title:
-      cover_subtitle: Technical documentation that just works
-      cover_logo: images/arc42-logo.png
-      # excludes_children:
-      #   - 'releases/changelog/:upgrading'
-      # convert_iframe:
-      #  - src: https://streamable.com/e/zmtb00
-      #    img: https://cdn-cf-east.streamable.com/image/zmtb00-screenshot75403.jpg
-      # render_js: true
-      # headless_chrome_path: chromium
-      output_path: ../document.pdf
-      # debug_html: true
-      # verbose: true
-      # show_anchors: true
-      #enabled_if_env: ENABLE_PDF_EXPORT
+  # - i18n:
+  #     default_language: en
+  #     languages:
+  #       en:
+  #         name: English
+  #         build: true
+  #         site_name: microCI documentation template
+  #       pt:
+  #         name: Português
+  #         build: true
+  #         site_name: Modelo de documentação do microCI
 
 # vim: spell spelllang=pt,en
